@@ -57,11 +57,11 @@
 
         layer_fn {
             bindings = <
-       &none   &none   &none   &none   &none   &none            &tog 1                                                    &none     &none       &none         &none              &none              &none  &kp F12
- &kp LG(TAB)   &none   &none   &none   &none   &none             &none                                                    &none     &none  &kp C_MUTE  &kp C_VOL_DN       &kp C_VOL_UP              &none    &none
-   &kp TILDE  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5             &none  &trans  &trans                  &trans  &trans  &kp DEL  &kp BSPC     &kp F10       &kp F11            &kp F12              &none    &none
-       &none  &kp F6  &kp F7  &kp F8  &kp F9   &none                            &trans                  &trans                      &none       &none         &none              &none              &none    &none
-      &trans   &none   &none   &none   &none                    &trans  &trans  &trans                  &trans  &trans   &trans                 &none         &none  &mt LGUI LS(LBKT)  &mt LGUI LS(RBKT)   &trans
+       &none   &none   &none  &mt LGUI LS(N3)  &mt LGUI LS(N4)  &mt LGUI LS(N5)            &tog 1                                                    &none     &none       &none         &none              &none              &none  &kp F12
+ &kp LG(TAB)   &none   &none            &none            &none            &none             &none                                                    &none     &none  &kp C_MUTE  &kp C_VOL_DN       &kp C_VOL_UP              &none    &none
+   &kp TILDE  &kp F1  &kp F2           &kp F3           &kp F4           &kp F5             &none  &trans  &trans                  &trans  &trans  &kp DEL  &kp BSPC     &kp F10       &kp F11            &kp F12              &none    &none
+       &none  &kp F6  &kp F7           &kp F8           &kp F9            &none                            &trans                  &trans                      &none       &none         &none              &none              &none    &none
+      &trans   &none   &none            &none            &none                             &trans  &trans  &trans                  &trans  &trans   &trans                 &none         &none  &mt LGUI LS(LBKT)  &mt LGUI LS(RBKT)   &trans
             >;
         };
 
