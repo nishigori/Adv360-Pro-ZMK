@@ -50,11 +50,11 @@
 
         layer_keypad {
             bindings = <
-      &trans     &kp N1    &kp N2    &kp N3     &kp N4  &kp N5            &trans                                                                 &mo 3    &kp N6  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
- &kp LG(TAB)      &kp Q     &kp W     &kp E      &kp R   &kp T             &none                                                                 &none     &kp Y   &kp KP_N7     &kp KP_N8      &kp KP_N9     &kp KP_MINUS   &kp BSLH
-   &kp TILDE      &kp A     &kp S     &kp D      &kp F   &kp G             &none         &trans  &trans                  &trans         &trans   &none  &kp LEFT    &kp DOWN        &kp UP      &kp RIGHT      &kp KP_PLUS  &kp GRAVE
-      &trans      &kp Z     &kp X     &kp C      &kp V   &kp B                                   &trans                  &trans                            &none   &kp KP_N1     &kp KP_N2      &kp KP_N3     &kp KP_ENTER     &trans
-      &trans  &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT                    &trans  &kp LG(ENTER)  &trans                  &trans  &kp LG(ENTER)  &trans                 &none         &none     &kp RS(N9)       &kp RS(N0)     &trans
+      &trans   &none   &none   &none   &none   &none             &none                                                                 &none     &none     &none   &none       &none       &none     &kp MINUS
+ &kp LG(TAB)   &none   &none   &none   &none   &none             &none                                                                 &none     &none     &none   &none       &none       &none  &kp LC(RBKT)
+   &kp TILDE  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5             &none         &trans  &trans                  &trans         &trans   &none  &kp LEFT  &kp DOWN  &kp UP   &kp RIGHT       &none     &kp GRAVE
+      &trans  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0                                   &trans                  &trans                            &none     &none   &none       &none       &none        &trans
+      &trans   &none   &none   &none   &none                    &trans  &kp LG(ENTER)  &trans                  &trans  &kp LG(ENTER)  &trans               &none   &none  &kp RS(N9)  &kp RS(N0)        &trans
             >;
         };
 
