@@ -60,9 +60,9 @@
 
         layer_fn {
             bindings = <
- &kp F1  &kp F2  &kp F3          &kp F4          &kp F5          &kp F6            &tog 1                                                   &mo 3  &kp F7        &kp F8        &kp F9  &kp F10  &kp F11  &kp F12
- &trans  &trans  &trans  &kp LG(LS(N3))  &kp LG(LS(N4))  &kp LG(LS(N5))             &none                                                   &none  &trans        &trans        &trans   &trans   &trans   &trans
- &trans  &kp F1  &kp F2          &kp F3          &kp F4          &kp F5             &none  &trans  &trans                  &trans  &trans   &none  &trans        &trans        &trans    &none  &kp F12   &trans
+ &trans  &kp F2  &kp F3          &kp F4          &kp F5          &kp F6            &tog 1                                                   &mo 3  &kp F7        &kp F8        &kp F9  &kp F10  &kp F11  &kp F12
+ &trans   &none   &none  &kp LG(LS(N3))  &kp LG(LS(N4))  &kp LG(LS(N5))             &none                                                   &none  &trans        &trans        &trans   &trans   &trans    &none
+ &trans  &kp F1  &kp F2          &kp F3          &kp F4          &kp F5             &none  &trans  &trans                  &trans  &trans   &none  &trans        &trans        &trans    &none    &none    &none
  &trans  &kp F6  &kp F7          &kp F8          &kp F9          &trans                            &trans                  &trans                  &trans  &kp C_VOL_UP  &kp C_VOL_DN   &trans   &trans   &trans
  &trans   &none   &none           &none           &none                            &trans  &trans  &trans                  &trans  &trans  &trans          &kp C_BRI_UP  &kp C_BRI_DN   &trans   &trans   &trans
             >;
